@@ -1,0 +1,26 @@
+PODS:
+  - Masonry (1.1.0)
+  - PicDataSDK (1.1.0):
+    - Masonry
+    - SDWebImage (~> 5.0)
+  - SDWebImage (5.13.3):
+    - SDWebImage/Core (= 5.13.3)
+  - SDWebImage/Core (5.13.3)
+
+DEPENDENCIES:
+  - PicDataSDK
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - PicDataSDK
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PicDataSDK: 7cd11615b1b005cbcf32bc7c580f327b79fc97b1
+  SDWebImage: af5bbffef2cde09f148d826f9733dcde1a9414cd
+
+PODFILE CHECKSUM: 293e2543248969cfc491c0cf002e87d40a2badb6
+
+COCOAPODS: 1.11.3
