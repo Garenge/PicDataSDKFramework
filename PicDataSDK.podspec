@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "PicDataSDK"
-    spec.version      = "1.0.0"
+    spec.version      = "1.0.1"
     spec.summary      = "Private method for PicData. Framework of PicDataSDK"
     spec.description  = <<-DESC
     Framework of PicDataSDK, which provide private methods for PicData.
