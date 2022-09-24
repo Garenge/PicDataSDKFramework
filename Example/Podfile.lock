@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - PicDataSDK (1.1.0):
+  - PicDataSDK (1.0.2):
     - Masonry
     - SDWebImage (~> 5.0)
   - SDWebImage (5.13.3):
@@ -11,16 +11,17 @@ DEPENDENCIES:
   - PicDataSDK
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - Masonry
-    - PicDataSDK
     - SDWebImage
+  https://github.com/Garenge/pengpengSpecs.git:
+    - PicDataSDK
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  PicDataSDK: 7cd11615b1b005cbcf32bc7c580f327b79fc97b1
+  PicDataSDK: e7d0751b3791243048292cae96c6204998eb65f1
   SDWebImage: af5bbffef2cde09f148d826f9733dcde1a9414cd
 
-PODFILE CHECKSUM: 293e2543248969cfc491c0cf002e87d40a2badb6
+PODFILE CHECKSUM: 5a39b63ef4dfda2800337467631072b8a41403d5
 
 COCOAPODS: 1.11.3
