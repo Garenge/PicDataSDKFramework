@@ -15,23 +15,37 @@
 
 ## 或创建私有库spec
 github新建仓库用于放置专门的私有库spec
-1. 如果要发布, 不要用上面的发布到trunk, 用
+
+* 如果要发布, 不要用上面的发布到trunk, 用
+
 > pod repo push pengpengSpecs PicDataSDK.podspec --allow-warnings
-2. 或者不发布, SDK仓库只需要正常提交代码, 打tag, 然后更新pengpengSpecs.git, 更新最新的podspec
+
+* 或者不发布, SDK仓库只需要正常提交代码, 打tag, 然后更新pengpengSpecs.git, 更新最新的podspec
 
 ### 使用
+##### 第一种方法, 带header
+pod添加好之后, 能看到header文件
 在Podfile前面用source指定三方地址如
 
 ```
 source 'https://github.com/Garenge/pengpengSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 ```
+然后指定pod
+
+> pod 'PicDataSDK'
+
 这就表示, PicDataSDK去pengpengSpecs.git查找, 剩下的库去CocoaPods查找. 
 好处: 
 
 1. 别人搜不到你的库, 保护了隐私
 2. cocoapods发布需要时间同步
 3. 解决了验证不通过等问题
+
+##### 第二种方法, 不带header
+pod添加好之后, 看不到header文件
+
+> pod 'PicDataSDK', :git => 'https://github.com/Garenge/PicDataSDKFramework.git'
 
 <!--### 更新索引
 > 先添加
