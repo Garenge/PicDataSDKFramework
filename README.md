@@ -22,41 +22,6 @@ github新建仓库用于放置专门的私有库spec
 
 * 或者不发布, SDK仓库只需要正常提交代码, 打tag, 然后更新pengpengSpecs.git, 更新最新的podspec
 
-### 使用
-##### 第一种方法, 带header
-pod添加好之后, 能看到header文件
-在Podfile前面用source指定三方地址如
-
-```
-source 'https://github.com/Garenge/pengpengSpecs.git'
-source 'https://github.com/CocoaPods/Specs.git'
-```
-然后指定pod
-
-> pod 'PicDataSDK'
-
-这就表示, PicDataSDK去pengpengSpecs.git查找, 剩下的库去CocoaPods查找. 
-好处: 
-
-1. 别人搜不到你的库, 保护了隐私
-2. cocoapods发布需要时间同步
-3. 解决了验证不通过等问题
-
-##### 第二种方法, 不带header
-pod添加好之后, 看不到header文件
-
-> pod 'PicDataSDK', :git => 'https://github.com/Garenge/PicDataSDKFramework.git'
-
-<!--### 更新索引
-> 先添加
-pod repo add PicDataSDKFramework https://github.com/Garenge/PicDataSDKFramework.git
-
-> 将版本信息库的更新推送到索引库的远端
-pod repo push PicDataSDK PicDataSDK.podspec --allow-warnings --verbose-->
-
-## search
-pod search PicDataSDK
-
 ## 检测
 有些时候你发布完成后pod search发现什么也没有，这并不一定表示你的项目没有上传成功，有可能会有延时。可以进行下面的操作进行尝试：
 
@@ -78,3 +43,49 @@ pod search PicDataSDK
     spec.pod_target_xcconfig = {
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
+
+
+# 使用
+
+## search
+pod search PicDataSDK
+
+## Podfile
+在Podfile前面用source指定三方地址如
+
+```
+source 'https://github.com/Garenge/pengpengSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+```
+这就表示, PicDataSDK去pengpengSpecs.git查找, 剩下的库去CocoaPods查找. 
+
+### 示例
+```
+platform :ios, '9.0'
+
+source 'https://github.com/Garenge/pengpengSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Example' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Example
+  # pod 'PicDataSDK'#, :path => '../'
+  pod 'PicDataSDK'
+
+end
+```
+
+好处: 
+
+1. 别人搜不到你的库, 保护了隐私
+2. cocoapods发布需要时间同步
+3. 解决了验证不通过等问题
+
+<!--### 更新索引
+> 先添加
+pod repo add PicDataSDKFramework https://github.com/Garenge/PicDataSDKFramework.git
+
+> 将版本信息库的更新推送到索引库的远端
+pod repo push PicDataSDK PicDataSDK.podspec --allow-warnings --verbose-->

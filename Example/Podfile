@@ -10,6 +10,6 @@ target 'Example' do
 
   # Pods for Example
   # pod 'PicDataSDK'#, :path => '../'
-  pod 'PicDataSDK'#, '=1.0.9'
+  pod 'PicDataSDK'
 
 end
