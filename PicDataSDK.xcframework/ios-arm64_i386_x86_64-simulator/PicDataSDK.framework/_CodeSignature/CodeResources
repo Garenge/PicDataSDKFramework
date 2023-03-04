@@ -114,7 +114,7 @@
 		</data>
 		<key>Headers/ViewerContentView.h</key>
 		<data>
-		kxJJUuChuP3GvfNY4ffMrKTFPcI=
+		NJEmyCH9ck9ipW8BxcH5ZTP2oYw=
 		</data>
 		<key>Headers/ViewerFileModel.h</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YK3SX9N8j+0Ts0TiGeIArV0uNGI=
+		7kvhptdNYPTXCPNnO71FEp+oBO0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -130,11 +130,15 @@
 		</data>
 		<key>PicDataSDKResource.bundle/Info.plist</key>
 		<data>
-		+sOGuqmYEXLleE0uRzfNOGEY+Dg=
+		MeYReW28kipLy9JBl51CQuWWI9E=
 		</data>
 		<key>PicDataSDKResource.bundle/PicDataSDKResource</key>
 		<data>
-		7vi8qW6B9XdXGhviRX2ltaBylJk=
+		QJf00ehtllg0zlc6kBmVPOtfa3o=
+		</data>
+		<key>PicDataSDKResource.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		3eD5QTSSdcQ0uo30aEKaLduwWRI=
 		</data>
 		<key>PicDataSDKResource.bundle/file_type_v_folder.png</key>
 		<data>
@@ -512,11 +516,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kxJJUuChuP3GvfNY4ffMrKTFPcI=
+			NJEmyCH9ck9ipW8BxcH5ZTP2oYw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dH/Uj0H6MNTJ22R9B3icBIQJzCqDGZSuqNGOQT1gw/w=
+			OTCfoffZ7nrPWG34hU17onno0KV/Gxw3ZisXk3iZPc0=
 			</data>
 		</dict>
 		<key>Headers/ViewerFileModel.h</key>
@@ -545,22 +549,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+sOGuqmYEXLleE0uRzfNOGEY+Dg=
+			MeYReW28kipLy9JBl51CQuWWI9E=
 			</data>
 			<key>hash2</key>
 			<data>
-			iA23VqWXpI823HhgPpK4CwFiLdKb4oyCWwByFE50k2A=
+			0OrvFo2SS/+soVkeoszP6KkN8B4bYY5ziXMHFO07BOw=
 			</data>
 		</dict>
 		<key>PicDataSDKResource.bundle/PicDataSDKResource</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7vi8qW6B9XdXGhviRX2ltaBylJk=
+			QJf00ehtllg0zlc6kBmVPOtfa3o=
 			</data>
 			<key>hash2</key>
 			<data>
-			jcAqixudkAh3oruA26QCh7O9yriFItxR+9lzNAXkAhs=
+			l7BC5KzYpek8tl9y8E7bB4KLvDdUiUTi9zKZOYSuINM=
+			</data>
+		</dict>
+		<key>PicDataSDKResource.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3eD5QTSSdcQ0uo30aEKaLduwWRI=
+			</data>
+			<key>hash2</key>
+			<data>
+			3Zp0N6lu2p4LV8CkE9a4AgSVgsdB4v/zlgb2SBqpLcg=
 			</data>
 		</dict>
 		<key>PicDataSDKResource.bundle/file_type_v_folder.png</key>
