@@ -122,7 +122,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Q46TNh5zqxacEuCwOJ2G5y8ttec=
+		pWKz37rso7dn4x/r1wUD6G07OuE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -130,15 +130,15 @@
 		</data>
 		<key>PicDataSDKResource.bundle/Info.plist</key>
 		<data>
-		YFDmu9b2sjyvF/+lsm8+6eDrank=
+		JiA8fBhNoyN9qrPUVbIyFxsBFu0=
 		</data>
 		<key>PicDataSDKResource.bundle/PicDataSDKResource</key>
 		<data>
-		zUjRgZMtcjLpdWBDYL3k5+5LTqw=
+		31qhHNzjTtTD7XCx4k9OR6fi3lg=
 		</data>
 		<key>PicDataSDKResource.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		fS1MWsflzRjGllkfLTfZuHqmT9M=
+		s2rNWildeTeIsuxw94r1kyWWCsU=
 		</data>
 		<key>PicDataSDKResource.bundle/file_type_v_folder.png</key>
 		<data>
@@ -549,33 +549,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YFDmu9b2sjyvF/+lsm8+6eDrank=
+			JiA8fBhNoyN9qrPUVbIyFxsBFu0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1W69X4Sg00Yl2rBVMAHlUHVSYiMmXR/0RaVkpsi2Iik=
+			LLU2Hp9q3Iwa6J9zvgru3U6UM87l+hHTZKaWHweHiTo=
 			</data>
 		</dict>
 		<key>PicDataSDKResource.bundle/PicDataSDKResource</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zUjRgZMtcjLpdWBDYL3k5+5LTqw=
+			31qhHNzjTtTD7XCx4k9OR6fi3lg=
 			</data>
 			<key>hash2</key>
 			<data>
-			2b10OFysI25Jj1wBzN8U2Tehm5hlbZKlwKCCq8FDruA=
+			fuyMfkKKgGPZFFtbJ2Wg8lcq20Pka/3YLvm/NFhTByU=
 			</data>
 		</dict>
 		<key>PicDataSDKResource.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fS1MWsflzRjGllkfLTfZuHqmT9M=
+			s2rNWildeTeIsuxw94r1kyWWCsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ssZ4mpcvttuxPsTxv4pLOSpeYfimn+0dO8nJ5Z+aXuY=
+			dpDTGFJVrUDqnLNHWHwNuEInaVBRmRchd1+ctQ8Hu1M=
 			</data>
 		</dict>
 		<key>PicDataSDKResource.bundle/file_type_v_folder.png</key>
