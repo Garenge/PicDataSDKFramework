@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "PicDataSDK"
-    spec.version      = "1.0.4"
+    spec.version      = "1.0.5"
     spec.summary      = "Private method for PicData. Framework of PicDataSDK"
     spec.description  = <<-DESC
     Framework of PicDataSDK, which provide private methods for PicData.
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
     spec.author       = { "Garenge" => "garenge@outlook.com" }
     spec.source       = { :git => "https://github.com/Garenge/PicDataSDKFramework.git", :tag => spec.version.to_s }
     # spec.source_files = "PicDataSDK.xcframework/ios-arm64_armv7/PicDataSDK.framework/**/*.h"
-    spec.public_header_files = "PicDataSDK.xcframework/ios-arm64_armv7/PicDataSDK.framework/**/*.h"
+    spec.public_header_files = "PicDataSDK.xcframework/ios-arm64/PicDataSDK.framework/**/*.h"
 
     spec.ios.deployment_target = "9.0"
 
